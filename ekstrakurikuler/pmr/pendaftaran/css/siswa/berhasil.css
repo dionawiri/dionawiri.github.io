@@ -1,0 +1,23 @@
+.container {
+  margin-top: 5rem;
+}
+.card-body span {
+  display: block;
+}
+h1 {
+  font-weight: bolder;
+}
+.wa_admin {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-left: auto;
+}
+.conkartu {
+  padding-top: 5rem;
+}
+.id {
+  font-size: 20px;
+}
+.inf {
+  font-size: small;
+}

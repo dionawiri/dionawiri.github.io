@@ -1,0 +1,91 @@
+html,
+body {
+  height: 100%;
+  background-color: #ff0000 !important;
+}
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+.login-form {
+  width: 380px;
+  height: 500px;
+  padding: 20px;
+  background-color: black !important;
+  border-radius: 13px !important;
+}
+
+input[type='username'],
+input[type='password'] {
+  background: black;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+input[type='username']:focus,
+input[type='password']:focus {
+  outline: none;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: #000000;
+  margin: 0;
+}
+
+.card-title {
+  font-weight: 900;
+  padding-top: 10px;
+}
+.btn {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: #ff0000;
+  text-transform: uppercase;
+}
+.peringatan {
+  margin: auto;
+}
+footer {
+  position: bottom;
+  font-family: 'Open Sans';
+}
+
+.footer-bottom {
+  color: whitesmoke;
+  background: black;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 12px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: none;
+  opacity: 0.4;
+  font-weight: 100;
+}
+/* versi hp */
+@media screen and (max-width: 991.98px) {
+  .peringatan {
+    font-size: 15px;
+  }
+
+  .login-form {
+    width: 330px;
+    height: 500px;
+    padding: 20px;
+    background-color: black !important;
+    border-radius: 13px !important;
+  }
+}

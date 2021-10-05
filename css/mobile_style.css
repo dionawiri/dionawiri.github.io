@@ -1,0 +1,142 @@
+@media screen and (max-width: 991.98px) {
+  /* nav */
+  .textnav {
+    text-transform: capitalize;
+    font-size: medium;
+  }
+  .menu:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 4px solid #ffe60000;
+    width: 40%;
+    margin: auto;
+  }
+  /* akhirnav */
+  /* video */
+  /* jumbotron */
+  /* logo */
+  .logo_jumbo {
+    width: 6rem;
+    margin-top: 0rem;
+  }
+  .judul h1 {
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+  }
+  /* akhr jumbotron */
+  /* profil */
+  .profil h3 {
+    font-size: 26px;
+  }
+
+  .profil h3 span {
+    display: block;
+    font-size: 26px;
+  }
+  .profil p {
+    text-align: center;
+  }
+  .profil h5 {
+    font-size: 17px;
+  }
+  .logocoo img {
+    width: 10rem;
+  }
+
+  /* video */
+  .vid1 {
+    width: 340px;
+    height: 262px;
+    padding-top: 1rem;
+    padding-right: 0rem;
+  }
+  .vid {
+    width: 340px;
+    height: 202px;
+    padding-top: 10px;
+  }
+
+  /* akhir video */
+
+  /* jurusan */
+  .jurusan {
+    margin-top: 0;
+  }
+  .jurusan_card {
+    width: 15rem;
+    border: 0px solid;
+    margin: auto;
+  }
+  .jurusan_card h5 {
+    font-size: 19px;
+  }
+  .jurusan_card p {
+    font-size: 16px;
+  }
+
+  /* jurusan akhir */
+  /* logo perusahaan */
+  .logoper {
+    width: 12rem;
+    height: 12rem;
+    border-bottom: 3px solid #00255c;
+    margin: auto;
+  }
+  /* logo perusahaan akhir */
+  /* prestai */
+  .layar-dalam {
+    width: 90%;
+  }
+  .blog .area {
+    display: block;
+  }
+  .blog div.area div {
+    width: 100%;
+  }
+  .blog .area .gambar {
+    border-radius: 5px 5px 0px 0px;
+    height: 200px;
+  }
+  .blog .area .textkonten {
+    padding: 20px;
+  }
+  /* akhir prestasi */
+  /* ekstra */
+  .ukuransec {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
+  .bgeks {
+    background-color: #00255c;
+  }
+  .bgeks {
+    background-image: url('');
+    background-size: cover;
+    height: 100%;
+  }
+  /* ekstra akhir */
+  .berita {
+    margin-top: -3rem;
+  }
+  .tombolberita {
+    padding-bottom: 4rem;
+  }
+  /* footer */
+  .footercont h6 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'circular';
+  }
+  .footercont h6::after {
+    content: '';
+    border-bottom: 2px solid #ffe600;
+    width: 60px;
+    display: block;
+    margin: 6px auto;
+  }
+  .tentangfooter {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  /* akhir footer */
+}

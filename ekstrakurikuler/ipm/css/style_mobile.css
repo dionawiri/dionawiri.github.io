@@ -1,0 +1,653 @@
+/* reset ============================================================================ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@media (max-width: 767px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* nav */
+  .navbar-brand img {
+    margin-left: 0px;
+  }
+  .nav-item:after {
+    display: none;
+  }
+  .navbar-nav {
+    margin-left: 15px;
+  }
+  .start-header {
+    opacity: 1;
+    transform: translateY(0);
+    padding: 5px 0;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .start-header.scroll-on {
+    box-shadow: none;
+    padding: 5px 0;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .start-header.scroll-on .navbar-brand img {
+    height: 48px;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .navbar-brand img {
+    margin-right: 160px;
+    margin-left: 30px;
+    height: 48px;
+    width: auto;
+    display: block;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .nav-item::before {
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 0;
+    width: 11px;
+    height: 1px;
+    content: '';
+    border: none;
+    background-color: rgb(0, 0, 0);
+  }
+  .dropdown-toggle::after {
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: -25px;
+    width: 1px;
+    height: 11px;
+    content: '';
+    border: none;
+    background-color: rgb(0, 0, 0);
+
+    transition: all 200ms linear;
+  }
+  .dropdown-toggle[aria-expanded='true']::after {
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  .dropdown-menu {
+    padding: 0 !important;
+    background-color: transparent;
+    box-shadow: none;
+    transition: all 200ms linear;
+  }
+  .dropdown-toggle[aria-expanded='true'] + .dropdown-menu {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  /* jumbotron */
+  .jumbotron {
+    margin-top: 40px;
+    background-image: url('../../img/ekstra/Ipm/index/686b59e3-d290-4bf6-be7c-f63c1afb7679.jpg');
+    background-size: cover;
+    height: 100vh;
+  }
+  .jumbotron h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    letter-spacing: 4px;
+    position: static;
+    margin: 6rem 5px 0px 5px;
+  }
+  .welcomejumb {
+    width: 320px;
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  .welcomejumbipm {
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #ffa400;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    color: #fff;
+  }
+
+  .welcomejumbipm button {
+    display: block;
+  }
+  .welcomejumb button {
+    width: 320px;
+    border-radius: 0%;
+    border: #fff solid 0;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    height: auto;
+  }
+  .btn1 {
+    margin: 10px 0px 0px 0px;
+  }
+  .btn2 {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .btn-outline-warning:hover {
+    background-color: #ffa400;
+    color: #fff;
+  }
+  /* jenong */
+
+  .jenong {
+    width: 100%;
+    height: 20px;
+    background: #ffa400;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    text-align: center;
+    margin-top: -120px;
+    transform: translate3d(-40px, 0, 0, 0);
+    position: relative;
+  }
+  .jenong img {
+    width: 45px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 9;
+  }
+  .jenongisi {
+    position: relative;
+    background-color: #ffa400;
+  }
+  .jenongisi p {
+    position: relative;
+    text-align: center;
+    padding: 9rem 14px 1rem 14px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .tombljnng p {
+    margin-top: -12rem;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    z-index: 9;
+  }
+  .tombljnng {
+    width: 320px;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 6rem;
+  }
+
+  .tombljnng button {
+    display: block;
+    visibility: hidden;
+  }
+  .tombljnng button {
+    width: 320px;
+  }
+  .btn1jng {
+    margin: 10px 0px 0px 0px;
+  }
+  .btn2jng {
+    margin: 10px 0px 0rem 0px;
+  }
+
+  /* jersy */
+
+  .jersy h3 {
+    font-size: 30px;
+    margin: -1rem 0rem 0rem 0rem;
+    font-family: 'DINEngschriftStd';
+    text-align: center;
+  }
+  .jersy img {
+    width: 345px;
+    margin: 3rem 0px 2rem 0rem;
+    filter: brightness(130%);
+  }
+  .jersy p {
+    font-size: 15px;
+    margin: 5px 0rem 0rem 0rem;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .jersyxt,
+  .jersy,
+  .jersyxt2 {
+    max-height: 20rem;
+    text-align: center;
+  }
+  .jersyxt h3 {
+    font-size: 30px;
+    font-family: 'DINEngschriftStd';
+    padding: 5rem 0rem 0rem 0rem;
+  }
+  .jersyxt2 p {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0rem 0rem 1rem 0rem;
+  }
+  .jersy {
+    background-size: cover;
+    background-position: center;
+    filter: brightness(150%);
+    margin: 2rem 0rem;
+    min-height: 30rem;
+  }
+  /* img & text */
+  .textstyle,
+  .imgstyle {
+    max-height: 455px;
+    background-color: #ebebeb;
+    margin-top: 0rem;
+  }
+  .textstyle {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .textstyle h3 {
+    font-size: 32px;
+    padding-bottom: 1rem;
+    font-family: 'DINEngschriftStd';
+  }
+  .textstyle p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 0rem;
+  }
+  .textstyle h4 {
+    font-family: 'Vibur';
+    font-size: 40px;
+    padding-top: 1rem;
+    color: #ffa400;
+  }
+  /* gambar ------ */
+  .imgstyle {
+    min-height: 160px;
+    margin-top: -6rem;
+  }
+
+  /* end img & text */
+
+  /* bgvideo */
+  .bgvideo {
+    background-image: url('../../img/ekstra/Ipm/index/DSC6666.jpg');
+    background-attachment: scroll;
+    height: 85%;
+    background-size: cover;
+  }
+  .ukuransec {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  .ukuransec h3 {
+    padding-top: 20px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    font-family: 'DINEngschriftStd';
+  }
+  .ukuransec p {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 2rem 0rem 1rem 0rem;
+    line-height: normal;
+  }
+  .ukuransec h4 {
+    font-family: 'Vibur', cursive;
+    padding-top: 0rem;
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+  }
+  .videoprfl {
+    margin: 0rem;
+    background-color: #ebebeb;
+    width: 100%;
+  }
+  .videoprfl iframe {
+    width: 100%;
+    height: 205px;
+    margin: 3% 0px 2% 0px;
+    filter: brightness(95%);
+  }
+
+  /* foto pisah sebelahan*/
+  .ktk {
+    padding-left: 0rem;
+    width: 100%;
+    float: none;
+    margin-top: -50px;
+  }
+  .ktk img {
+    width: 103.9%;
+  }
+  .tngg {
+    background-color: #fff;
+    width: 100%;
+    float: none;
+  }
+  .tngg img {
+    width: 108.4%;
+    margin-left: -15px;
+    margin-top: 0px;
+  }
+  /* textnya */
+
+  .texttext,
+  .texttext2 {
+    max-height: 455px;
+    background-color: white;
+    text-align: left;
+  }
+  .texttext {
+    padding: 3rem 1rem 1rem;
+  }
+  .texttext h3 {
+    font-size: 30px;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    font-family: 'DINEngschriftStd';
+  }
+  .texttext h4 {
+    font-family: 'Vibur', cursive;
+    font-size: 35px;
+    padding-top: 0rem;
+    color: #ffa400;
+  }
+  .texttext2 {
+    padding: 1rem 1rem;
+  }
+  .texttext2 p {
+    line-height: 30px;
+    font-size: 16px;
+  }
+  /* fotolebar */
+  .ftolebar {
+    background-image: url('../../img/ekstra/Ipm/index/resg.jpg');
+    width: 100%;
+    background-size: cover;
+    padding: 1rem 0rem;
+  }
+  .ukuransecqfotoful {
+    padding: 0px 0rem;
+  }
+  .quotefotoful {
+    background-color: #ffa400;
+    width: 316px;
+    margin-left: 0rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .quotefotoful h3 {
+    color: #fff;
+    font-size: 35px;
+    padding: 3rem 3rem 0rem 3rem;
+    font-family: 'DINEngschriftStd';
+  }
+  .quotefotoful h4 {
+    font-family: 'Vibur';
+    font-size: 45px;
+    padding: 2rem;
+    color: #000000;
+  }
+  .quotefotoful p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding-top: 0rem;
+    padding: 0rem 1rem 3rem 1rem;
+    line-height: 30px;
+  }
+  /* img3 */
+  .img3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0rem auto 2rem auto;
+
+    width: 100%;
+  }
+  .img3 img {
+    width: 100%;
+    margin: 0rem auto;
+  }
+  .img3 h3 {
+    font-size: 39px;
+    margin: 2rem auto;
+    font-family: 'DINEngschriftStd';
+  }
+
+  .img3 p {
+    font-size: 20px;
+    margin: 0rem auto 0rem auto;
+  }
+  .img3 h4 {
+    font-family: 'Vibur';
+    font-size: 45px;
+    margin: 2rem auto;
+    color: #ffa400;
+    text-align: center;
+  }
+  /* bgfoto scrol */
+
+  .bgfotoquote {
+    background-image: url('../../img/ekstra/Ipm/index/cc9edf04-9c96-4ead-bf48-b14745141a2e.jpg');
+    background-attachment: scroll;
+    height: 100%;
+    background-size: cover;
+  }
+  .ukuransecqfoto {
+    padding: 1px 0rem;
+  }
+  .quotefoto {
+    background-color: #ffa400;
+    width: 260px;
+    text-align: center;
+    margin: 8rem 0rem;
+    margin-left: 32px;
+  }
+
+  .iconquote {
+    font-size: 0.5rem;
+  }
+  .fa-quote-left {
+    margin-top: -55px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  .quotefoto h3 {
+    color: #fff;
+    font-size: 29px;
+    font-family: 'DINEngschriftStd';
+    padding: 3rem 1rem 0rem 1rem;
+  }
+  .quotefoto p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding-top: 2rem;
+    padding: 1rem 3rem 5rem 3rem;
+    font-weight: bold;
+  }
+  /* ekstra lain */
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+  .flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .slider-wrapper div {
+    position: relative;
+  }
+  .slider-wrapper {
+    margin-top: 5vw;
+    margin-left: 11vw;
+  }
+  .slide-image {
+    height: 24vw;
+  }
+  .slide-image img {
+    width: 24vw;
+    cursor: pointer;
+  }
+  .slide-content {
+    width: 25vw;
+    color: #fff;
+    padding: 3vw 18vw 3vw 9vw;
+  }
+  .slide-date {
+    color: #0a8acb;
+    font-size: 1.1vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    padding-bottom: 1.4vw;
+  }
+  .slide-title {
+    font-size: 1.2vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    line-height: 1.55vw;
+    padding-bottom: 1.8vw;
+  }
+  .slide-text {
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+    opacity: 0.8;
+    padding-bottom: 4vw;
+  }
+  .slide-more {
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    float: left;
+    font-size: 0.9vw;
+  }
+  .slide-bullet {
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: #0b8bcc;
+    border-radius: 200%;
+    position: relative;
+    margin-left: 1.2vw;
+  }
+  .slide-nav {
+    margin-left: 64vw;
+    margin-top: -5.5vw;
+  }
+
+  div.overlay-blue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: 0.5s ease all;
+  }
+  div.overlay-blue:hover {
+    background-color: rgba(13, 27, 43, 0.5);
+  }
+
+  .arrows {
+    width: 3.5vw;
+    margin-top: -5.8vw;
+    margin-left: 72vw;
+    position: relative;
+  }
+  .arrow {
+    display: inline-block;
+    position: absolute;
+    width: 1.2vw;
+    height: 1.2vw;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 0.15vw solid #fff;
+    border-left: 0.15vw solid #fff;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+    color: transparent;
+  }
+  .arrow:hover {
+    border-color: #0a8acb;
+    border-width: 0.25vw;
+  }
+  .arrow:before {
+    display: block;
+    height: 200%;
+    width: 200%;
+    margin-left: -50%;
+    margin-top: -50%;
+    content: '';
+    transform: rotate(45deg);
+  }
+  .arrow.prev {
+    transform: rotate(-45deg);
+    left: 0;
+  }
+  .arrow.next {
+    transform: rotate(135deg);
+    right: 0;
+  }
+
+  /* footer */
+  .footercont h6 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'circular';
+  }
+  .footercont h6::after {
+    content: '';
+    border-bottom: 2px solid #ffe600;
+    width: 60px;
+    display: block;
+    margin: 6px auto;
+  }
+  .tentangfooter {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  /* akhir footer */
+  /* bidang */
+
+  .bdng h3 {
+    font-size: 25px;
+    font-family: 'DINEngschriftStd';
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+  }
+  .bidang {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    display: block;
+  }
+  /* Card================ */
+  .card {
+    width:  95%;
+    display: inline-block;
+    margin: 1rem 0px  1rem 2.5%;
+    border-radius: 0px;
+    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+}

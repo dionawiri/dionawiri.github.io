@@ -1,0 +1,48 @@
+.top {
+  border-bottom: 2px black solid;
+  z-index: 2;
+}
+.top img {
+  margin-bottom: 1rem;
+}
+.judul {
+  font-size: 27px;
+  padding-bottom: 3rem;
+  color: #000000;
+  font-family: 'Merriweather', serif;
+  margin-top: -10px;
+}
+.data {
+  line-height: 35px;
+  font-size: 19px;
+  font-family: 'Kaisei Tokumin', serif;
+  margin-left: 2rem;
+  margin-top: -5px;
+}
+.ramtot img {
+  opacity: 0.5;
+}
+.certificate-container {
+  padding: 50px;
+  width: 950px;
+  padding-top: 3rem;
+  margin: auto;
+}
+.certificate {
+  border: 0px;
+  padding: 25px;
+  height: 1250px;
+  position: relative;
+}
+
+.certificate:after {
+  content: '';
+  top: 30rem;
+  left: -10rem;
+  bottom: 0px;
+  right: 0rem;
+  position: absolute;
+  background-image: url(../../../../img/logomuhi/MuhiBening1.png);
+  background-size: 1880px;
+  z-index: -1;
+}
